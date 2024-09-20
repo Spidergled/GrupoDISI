@@ -1,0 +1,56 @@
+.centrado {
+  white-space: pre;
+}
+
+.rojo {
+    color:red;
+}
+
+.verde {
+    color:green;
+}
+
+.fondo{
+    background-color:darkgrey;
+}
+
+
+.formula{
+background: #fff url(images/valid.png) no-repeat 98% center;
+box-shadow: 0 0 13px #5cd053;
+border-color: #28921f;
+width: 45%;
+padding: 1%;    
+
+}
+
+
+.mi_tabla {
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 50%;
+  text-align: center;
+}
+
+.mi_tabla td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.mi_tabla th{
+  border: 2px solid black;
+  padding: 10px;   
+}
+
+.formula li {
+  margin-bottom: 20px; /* Añade espacio entre los elementos de la lista */
+}
+
+
+/* GRUPO */
+
+body {
+    background-color: #e0f7e0; /* Un verde claro como fondo */
+    margin: 0; /* Elimina los márgenes predeterminados */
+    font-family: Arial, sans-serif; /* Fuente para todo el documento */
+}

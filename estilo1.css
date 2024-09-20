@@ -1,0 +1,29 @@
+body {
+    background-color: #e0f7e0; /* Un verde claro como fondo */
+    margin: 0; /* Elimina los márgenes predeterminados */
+    font-family: Arial, sans-serif; /* Fuente para todo el documento */
+}
+
+.grupo {
+    display: flex;
+    justify-content: space-around; /* Distribuye las fotos horizontalmente */
+    flex-wrap: wrap; /* Permite que las fotos se envuelvan si la pantalla es más pequeña */
+}
+
+.miembro {
+    text-align: center;
+    margin: 20px;
+}
+
+.miembro .foto {
+    width: 150px; /* Ajusta el tamaño de las fotos según necesites */
+    height: 150px;
+    border-radius: 50%; /* Hace las fotos redondas, si lo deseas */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra para efecto 3D */
+    transition: transform 0.3s; /* Transición suave al aplicar efectos */
+}
+
+.miembro .foto:hover {
+    transform: translateY(-5px); /* Eleva la imagen al pasar el cursor */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5); /* Aumenta la sombra al pasar el cursor */
+}
